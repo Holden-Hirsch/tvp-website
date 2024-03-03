@@ -1,0 +1,966 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Azzle - AI Technology & Startup HTML Template</title>
+    <meta name="description" content="AIMass Tailwind based SASS Template" />
+
+    <!-- Favicon  -->
+    <link rel="icon" href="assets/img/favicon.png" />
+
+    <!-- Site font -->
+    <link href="assets/fonts/fonts.css" rel="stylesheet" />
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="assets/css/vendors/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/vendors/jos.css" />
+    <link rel="stylesheet" href="assets/css/vendors/menu.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css" />
+
+    <!-- Development css -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <!-- Production css -->
+    <!-- <link rel="stylesheet" href="assets/css/style.min.css"> -->
+</head>
+
+<body>
+    <div class="page-wrapper relative z-[1] bg-white">
+        <!--...::: Header Start :::... -->
+        <header class="site-header site-header--absolute is--white py-3" id="sticky-menu">
+            <div class="global-container">
+                <div class="flex items-center justify-between gap-x-8">
+                    <!-- Header Logo -->
+                    <a href="index.html" class="">
+                        <img src="assets/img/logo-dark.png" alt="AIMass" width="96" height="24" />
+                    </a>
+                    <!-- Header Logo -->
+
+                    <!-- Header Navigation -->
+                    <div class="menu-block-wrapper">
+                        <div class="menu-overlay"></div>
+                        <nav class="menu-block" id="append-menu-header">
+                            <div class="mobile-menu-head">
+                                <div class="go-back">
+                                    <img class="dropdown-icon" src="assets/img/icon-black-long-arrow-right.svg"
+                                        alt="cheveron-right" width="16" height="16" />
+                                </div>
+                                <div class="current-menu-title"></div>
+                                <div class="mobile-menu-close">&times;</div>
+                            </div>
+                            <ul class="site-menu-main">
+                                <li class="nav-item nav-item-has-children">
+                                    <a href="#" class="nav-link-item drop-trigger">Demo
+                                        <img class="dropdown-icon" src="assets/img/icon-black-cheveron-right.svg"
+                                            alt="cheveron-right" width="16" height="16" /></a>
+                                    <ul class="sub-menu" id="submenu-1">
+                                        <li class="sub-menu--item">
+                                            <a href="index.html">home 01</a>
+                                        </li>
+                                        <li class="sub-menu--item">
+                                            <a href="index-2.html">home 02</a>
+                                        </li>
+                                        <li class="sub-menu--item">
+                                            <a href="index-3.html">home 03</a>
+                                        </li>
+                                        <li class="sub-menu--item">
+                                            <a href="index-4.html"> home 04</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="about.html" class="nav-link-item">About</a>
+                                </li>
+                                <li class="nav-item nav-item-has-children">
+                                    <a href="#" class="nav-link-item drop-trigger">Services
+                                        <img class="dropdown-icon" src="assets/img/icon-black-cheveron-right.svg"
+                                            alt="cheveron-right" width="16" height="16" /></a>
+                                    <ul class="sub-menu" id="submenu-2">
+                                        <li class="sub-menu--item">
+                                            <a href="services.html">Services</a>
+                                        </li>
+                                        <li class="sub-menu--item">
+                                            <a href="service-details.html">Service Details</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item nav-item-has-children">
+                                    <a href="#" class="nav-link-item drop-trigger">Pages
+                                        <img class="dropdown-icon" src="assets/img/icon-black-cheveron-right.svg"
+                                            alt="cheveron-right" width="16" height="16" /></a>
+                                    <ul class="sub-menu" id="submenu-3">
+                                        <li class="sub-menu--item nav-item-has-children">
+                                            <a href="#" data-menu-get="h3" class="drop-trigger">blogs
+                                                <img class="dropdown-icon"
+                                                    src="assets/img/icon-black-cheveron-right.svg" alt="cheveron-right"
+                                                    width="16" height="16" /></a>
+                                            <ul class="sub-menu shape-none" id="submenu-4">
+                                                <li class="sub-menu--item">
+                                                    <a href="blog.html">blogs</a>
+                                                </li>
+                                                <li class="sub-menu--item">
+                                                    <a href="blog-details.html">blog details</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub-menu--item nav-item-has-children">
+                                            <a href="#" data-menu-get="h3" class="drop-trigger">Team
+                                                <img class="dropdown-icon"
+                                                    src="assets/img/icon-black-cheveron-right.svg" alt="cheveron-right"
+                                                    width="16" height="16" />
+                                            </a>
+                                            <ul class="sub-menu shape-none" id="submenu-5">
+                                                <li class="sub-menu--item">
+                                                    <a href="teams.html">Teams</a>
+                                                </li>
+                                                <li class="sub-menu--item">
+                                                    <a href="team-details.html">Teams Details</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub-menu--item nav-item-has-children">
+                                            <a href="#" data-menu-get="h3" class="drop-trigger">FAQ
+                                                <img class="dropdown-icon"
+                                                    src="assets/img/icon-black-cheveron-right.svg" alt="cheveron-right"
+                                                    width="16" height="16" />
+                                            </a>
+                                            <ul class="sub-menu shape-none" id="submenu-6">
+                                                <li class="sub-menu--item">
+                                                    <a href="faq.html">FAQ-1</a>
+                                                </li>
+                                                <li class="sub-menu--item">
+                                                    <a href="faq-2.html">FAQ-2</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub-menu--item nav-item-has-children">
+                                            <a href="#" data-menu-get="h3" class="drop-trigger">Portfolio
+                                                <img class="dropdown-icon"
+                                                    src="assets/img/icon-black-cheveron-right.svg" alt="cheveron-right"
+                                                    width="16" height="16" />
+                                            </a>
+                                            <ul class="sub-menu shape-none" id="submenu-7">
+                                                <li class="sub-menu--item">
+                                                    <a href="portfolio.html">Portfolio</a>
+                                                </li>
+                                                <li class="sub-menu--item">
+                                                    <a href="portfolio-details.html">Portfolio Details</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub-menu--item">
+                                            <a href="pricing.html" data-menu-get="h3" class="drop-trigger">Pricing
+                                            </a>
+                                        </li>
+
+                                        <li class="sub-menu--item nav-item-has-children">
+                                            <a href="#" data-menu-get="h3" class="drop-trigger">Utilities
+                                                <img class="dropdown-icon"
+                                                    src="assets/img/icon-black-cheveron-right.svg" alt="cheveron-right"
+                                                    width="16" height="16" />
+                                            </a>
+                                            <ul class="sub-menu shape-none" id="submenu-8">
+                                                <li class="sub-menu--item">
+                                                    <a href="error-404.html">Error 404</a>
+                                                </li>
+                                                <li class="sub-menu--item">
+                                                    <a href="login.html">Login</a>
+                                                </li>
+                                                <li class="sub-menu--item">
+                                                    <a href="signup.html">Signup</a>
+                                                </li>
+                                                <li class="sub-menu--item">
+                                                    <a href="reset-password.html">Reset Password</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="contact.html" class="nav-link-item">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- Header Navigation -->
+
+                    <!-- Header User Event -->
+                    <div class="flex items-center gap-6">
+                        <a href="login.html"
+                            class="button hidden rounded-[50px] border-[#7F8995] bg-transparent text-black after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white lg:inline-block">Login</a>
+                        <a href="signup.html"
+                            class="button hidden rounded-[50px] border-black bg-black text-white after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white lg:inline-block">Sign
+                            up free</a>
+                        <!-- Responsive Offcanvas Menu Button -->
+                        <div class="block lg:hidden">
+                            <button id="openBtn" class="hamburger-menu mobile-menu-trigger">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Header User Event -->
+                </div>
+            </div>
+        </header>
+        <!--...::: Header End :::... -->
+
+        <main class="main-wrapper relative overflow-hidden">
+            <!--...::: Breadcrumb Section Start :::... -->
+            <section id="section-breadcrumb">
+                <!-- Section Spacer -->
+                <div class="breadcrumb-wrapper">
+                    <!-- Section Container -->
+                    <div class="global-container">
+                        <div class="breadcrumb-block">
+                            <h1 class="breadcrumb-title">Blog Details</h1>
+                            <ul class="breadcrumb-nav">
+                                <li><a href="index.html">Home</a></li>
+                                <li>Blog Details</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Section Container -->
+                </div>
+                <!-- Section Spacer -->
+            </section>
+            <!--...::: Breadcrumb Section End :::... -->
+
+            <!--...::: Blog Section Start :::... -->
+            <div class="blog-section">
+                <!-- Section Spacer -->
+                <div class="pb-40 xl:pb-[220px]">
+                    <!-- Section Container -->
+                    <div class="global-container">
+                        <div class="grid grid-cols-1 gap-x-6 gap-y-10 lg:grid-cols-[1fr,minmax(416px,_0.5fr)]">
+                            <div class="flex flex-col gap-y-10 lg:gap-y-14 xl:gap-y-20">
+                                <!-- Blog Post Details -->
+                                <div class="flex flex-col gap-6">
+                                    <!-- Blog Post Text Area -->
+                                    <article class="jos overflow-hidden bg-white">
+                                        <div class="mb-7 block overflow-hidden rounded-[10px]">
+                                            <img src="assets/img/th-1/blog-main-1.jpg" alt="blog-main-1" width="856"
+                                                height="540" class="h-auto w-full scale-100 object-cover" />
+                                        </div>
+                                        <!-- Blog Post Meta -->
+                                        <ul class="flex flex-wrap items-center gap-6">
+                                            <li
+                                                class="relative font-semibold after:absolute after:left-full after:top-1/2 after:h-[7px] after:w-[7px] after:-translate-y-1/2 after:translate-x-2 after:rounded-full after:bg-colorCodGray last:after:hidden">
+                                                <a href="blog-details.html"
+                                                    class="hover:text-colorOrangyRed">Business</a>
+                                            </li>
+                                            <li
+                                                class="relative font-semibold after:absolute after:left-full after:top-1/2 after:h-[7px] after:w-[7px] after:-translate-y-1/2 after:translate-x-2 after:rounded-full after:bg-colorCodGray last:after:hidden">
+                                                <a href="blog-details.html" class="hover:text-colorOrangyRed">June 12,
+                                                    2024</a>
+                                            </li>
+                                        </ul>
+                                        <!-- Blog Post Meta -->
+                                        <h5 class="mb-3 mt-5">
+                                            10 ways to supercharge your startup with AI integration:
+                                            unlock exponential growth
+                                        </h5>
+                                        <p class="mb-7 last:mb-0">
+                                            The rapid advancements in AI have paved the way for
+                                            startups to revolutionize their businesses. This article
+                                            explores 10 key ways AI can be integrated into startups
+                                            and provides real-world examples of its tangible impact
+                                            across industries.
+                                        </p>
+
+                                        <ul class="mb-7 flex flex-col gap-7 last:mb-0">
+                                            <li>
+                                                <div class="font-semibold">
+                                                    1. AI-Powered Customer Support
+                                                </div>
+                                                <p class="mb-7 last:mb-0">
+                                                    AI chatbots and virtual assistants can handle
+                                                    routine queries, troubleshoot issues, and guide
+                                                    users, improving response times. This frees up human
+                                                    agents to tackle complex tasks, enhancing user
+                                                    experience.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <div class="font-semibold">
+                                                    2. Predictive Maintenance
+                                                </div>
+                                                <p class="mb-7 last:mb-0">
+                                                    By analyzing usage patterns, ML algorithms can
+                                                    predict failures, enabling proactive maintenance and
+                                                    minimizing downtime.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <div class="font-semibold">
+                                                    3. Enhanced Cybersecurity
+                                                </div>
+                                                <p class="mb-7 last:mb-0">
+                                                    AI anomaly detection, behavior analysis, and
+                                                    intrusion prevention boost security and data
+                                                    protection. This safeguards infrastructure and
+                                                    builds user trust.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <div class="overflow-hidden rounded-[10px]">
+                                                    <img src="assets/img/th-1/blog-inner-image.jpg"
+                                                        alt="blog-inner-image" width="100" height="100"
+                                                        class="h-auto w-full" />
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="font-semibold">
+                                                    4. Personalized User Experiences
+                                                </div>
+                                                <p class="mb-7 last:mb-0">
+                                                    By analyzing behavior and preferences, AI tailors
+                                                    interfaces and features. This improves satisfaction
+                                                    and encourages retention.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <div class="font-semibold">
+                                                    5. Automated Workflows
+                                                </div>
+                                                <p class="mb-7 last:mb-0">
+                                                    Automating tasks like software updates and license
+                                                    management with AI reduces manual efforts and
+                                                    minimizes errors.
+                                                </p>
+                                            </li>
+                                        </ul>
+
+                                        <div class="font-semibold">
+                                            Key Takeaways for Founders
+                                        </div>
+                                        <ul class="mb-7 last:mb-0">
+                                            <li
+                                                class="relative pl-[30px] after:absolute after:left-[10px] after:top-3 after:h-[5px] after:w-[5px] after:rounded-[50%] after:bg-black">
+                                                Start with chatbot, workflow automation, and basic
+                                                analytics.
+                                            </li>
+                                            <li
+                                                class="relative pl-[30px] after:absolute after:left-[10px] after:top-3 after:h-[5px] after:w-[5px] after:rounded-[50%] after:bg-black">
+                                                Gradually scale AI adoption as the business matures.
+                                            </li>
+                                            <li
+                                                class="relative pl-[30px] after:absolute after:left-[10px] after:top-3 after:h-[5px] after:w-[5px] after:rounded-[50%] after:bg-black">
+                                                Identify the right AI use cases to solve pressing
+                                                needs.
+                                            </li>
+                                            <li
+                                                class="relative pl-[30px] after:absolute after:left-[10px] after:top-3 after:h-[5px] after:w-[5px] after:rounded-[50%] after:bg-black">
+                                                Integrate AI into workflows and processes seamlessly.
+                                            </li>
+                                            <li
+                                                class="relative pl-[30px] after:absolute after:left-[10px] after:top-3 after:h-[5px] after:w-[5px] after:rounded-[50%] after:bg-black">
+                                                Get creative — leverage partnerships and talent from
+                                                outside.
+                                            </li>
+                                        </ul>
+                                        <p class="mb-7 last:mb-0">
+                                            The key to startup success is focusing AI efforts on the
+                                            applications that will differentiate your business and
+                                            have the biggest impact at each stage of growth. With
+                                            the right strategy, AI can unlock transformation
+                                            opportunities and exponential value creation.
+                                        </p>
+                                        <p class="mb-7 last:mb-0">Thanks for reading ❤</p>
+                                    </article>
+                                    <!-- Blog Post Text Area -->
+
+                                    <!-- Blog Events -->
+                                    <div class="jos flex justify-between gap-x-8">
+                                        <div class="flex items-center gap-x-6">
+                                            <button class="inline-flex items-center gap-x-1 text-[#121212]">
+                                                <img src="assets/img/th-1/icon-black-outline-thumb-up.svg"
+                                                    alt="icon-black-outline-thumb-up" width="24" height="24" />
+                                                200
+                                            </button>
+                                            <button class="inline-flex items-center gap-x-1 text-[#121212]">
+                                                <img src="assets/img/th-1/icon-black-outline-chat-alt.svg"
+                                                    alt="icon-black-outline-chat-alt" width="24" height="24" />
+                                                15
+                                            </button>
+                                        </div>
+                                        <div class="flex items-center gap-x-6">
+                                            <button class="inline-flex items-center gap-x-1 text-[#121212]">
+                                                <img src="assets/img/th-1/icon-black-outline-share.svg"
+                                                    alt="icon-black-outline-share" width="24" height="24" />
+                                            </button>
+                                            <button class="inline-flex items-center gap-x-1 text-[#121212]">
+                                                <img src="assets/img/th-1/icon-black-outline-inbox-in.svg"
+                                                    alt="icon-black-outline-inbox-in" width="24" height="24" />
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <!-- Blog Events -->
+
+                                    <!-- Horizontal Separator -->
+                                    <div class="jos my-[30px] h-[1px] w-full bg-[#EAEDF0]"></div>
+                                    <!-- Horizontal Separator -->
+
+                                    <!-- Single Post Navigation -->
+                                    <div
+                                        class="jos flex flex-col justify-between md:flex-row md:gap-x-10 xl:gap-x-24 xxl:gap-x-[196px]">
+                                        <a href="blog-details.html" class="group text-left">
+                                            <span
+                                                class="inline-flex items-center gap-x-3 text-[21px] font-bold transition-all duration-300 group-hover:text-colorOrangyRed"><img
+                                                    src="assets/img/th-1/icon-black-cheveron-left.svg"
+                                                    alt="icon-black-cheveron-left.svg" width="24" height="24" />
+                                                Previous post</span>
+                                            <p>
+                                                Amazon testing AI tools to improve product
+                                                descriptions: a game-changer
+                                            </p>
+                                        </a>
+                                        <a href="blog-details.html" class="group text-right">
+                                            <span
+                                                class="inline-flex flex-row-reverse items-center gap-x-3 text-[21px] font-bold transition-all duration-300 group-hover:text-colorOrangyRed"><img
+                                                    src="assets/img/th-1/icon-black-cheveron-right.svg"
+                                                    alt="icon-black-cheveron-right.svg" width="24" height="24" />
+                                                Next post</span>
+                                            <p>
+                                                3 best AI businesses to make money with in 2024
+                                                everyone is buzzing
+                                            </p>
+                                        </a>
+                                    </div>
+                                    <!-- Single Post Navigation -->
+
+                                    <!-- Blog Comment -->
+                                    <div class="jos">
+                                        <div class="mb-6 text-[24px] font-bold">
+                                            2 comments on this post:
+                                        </div>
+
+                                        <ul class="flex flex-col gap-y-[30px]">
+                                            <!-- Single Comment List -->
+                                            <li class="border-b border-[#EAEDF0] last:border-b-0">
+                                                <div class="flex gap-x-5">
+                                                    <!-- Comment User Image -->
+                                                    <div class="h-[80px] w-[80px] overflow-hidden rounded-full">
+                                                        <img src="assets/img/th-1/blog-comment-large-user-img-1.jpg"
+                                                            alt="blog-comment-large-user-img-1" width="80"
+                                                            height="80" />
+                                                    </div>
+                                                    <!-- Comment User Image -->
+                                                    <!-- Comment Content -->
+                                                    <div class="flex flex-1 flex-col gap-y-4">
+                                                        <!-- Comment User info -->
+                                                        <div class="flex items-center justify-between gap-x-5">
+                                                            <div class="flex flex-col gap-y-1">
+                                                                <div class="font-bold">Ricky Smith</div>
+                                                                <div class="text-sm">June 14, 2024</div>
+                                                            </div>
+                                                            <button
+                                                                class="font-bold transition-all duration-300 hover:text-colorOrangyRed">
+                                                                Reply
+                                                            </button>
+                                                        </div>
+                                                        <!-- Comment User info -->
+                                                        <!-- Comment User Text -->
+                                                        <p class="max-w-[616px]">
+                                                            It is a long established fact that a reader will
+                                                            be distrac readable content of a page when
+                                                            looking at its layout. The point of using is
+                                                            that it has two.
+                                                        </p>
+                                                        <!-- Comment User Text -->
+                                                    </div>
+                                                    <!-- Comment Content -->
+                                                </div>
+                                                <!-- Comment Reply -->
+                                                <ul class="mt-[30px] flex flex-col pl-8 sm:pl-32">
+                                                    <!-- Comment Reply Item -->
+                                                    <li class="border-t border-[#EAEDF0] py-[30px]">
+                                                        <div class="flex gap-x-5">
+                                                            <!-- Comment User Image -->
+                                                            <div class="h-[50px] w-[50px] overflow-hidden rounded-full">
+                                                                <img src="assets/img/th-1/blog-comment-small-user-img-1.jpg"
+                                                                    alt="blog-comment-large-user-img-1" width="50"
+                                                                    height="50" />
+                                                            </div>
+                                                            <!-- Comment User Image -->
+                                                            <!-- Comment Content -->
+                                                            <div class="flex flex-1 flex-col gap-y-4">
+                                                                <!-- Comment User info -->
+                                                                <div class="flex items-center justify-between gap-x-5">
+                                                                    <div class="flex flex-col gap-y-1">
+                                                                        <div class="font-bold">Joshua Jones</div>
+                                                                        <div class="text-sm">June 15, 2024</div>
+                                                                    </div>
+                                                                    <button
+                                                                        class="font-bold transition-all duration-300 hover:text-colorOrangyRed">
+                                                                        Reply
+                                                                    </button>
+                                                                </div>
+                                                                <!-- Comment User info -->
+                                                                <!-- Comment User Text -->
+                                                                <p class="max-w-[536px]">
+                                                                    It is a long established fact that a reader
+                                                                    will be distra readable content of a page
+                                                                    when looking its layout. The point of using.
+                                                                </p>
+                                                                <!-- Comment User Text -->
+                                                            </div>
+                                                            <!-- Comment Content -->
+                                                        </div>
+                                                    </li>
+                                                    <!-- Comment Reply Item -->
+                                                </ul>
+                                                <!-- Comment Reply -->
+                                            </li>
+                                            <!-- Single Comment List -->
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- Blog Post Details -->
+
+                                <!-- Blog Comment Form -->
+                                <div class="jos">
+                                    <div class="mb-6 text-[24px] font-bold">
+                                        Leave a comment:
+                                    </div>
+
+                                    <div
+                                        class="order-1 block rounded-lg bg-white px-[30px] py-[50px] shadow-[0_4px_60px_0_rgba(0,0,0,0.1)] md:order-2">
+                                        <!-- Comment Form -->
+                                        <form action="#" method="post" class="flex flex-col gap-y-5">
+                                            <!-- Form Group -->
+                                            <div class="grid grid-cols-1 gap-6 xl:grid-cols-2">
+                                                <!-- Form Single Input -->
+                                                <div class="flex flex-col gap-y-[10px]">
+                                                    <label for="comment-name"
+                                                        class="text-lg font-bold leading-[1.6]">Enter your name</label>
+                                                    <input type="text" name="comment-name" id="comment-name"
+                                                        placeholder="Adam Smith"
+                                                        class="placeholder:[#7F8995] rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-semibold text-black outline-none transition-all focus:border-colorOrangyRed"
+                                                        required />
+                                                </div>
+                                                <!-- Form Single Input -->
+                                                <!-- Form Single Input -->
+                                                <div class="flex flex-col gap-y-[10px]">
+                                                    <label for="comment-email"
+                                                        class="text-lg font-bold leading-[1.6]">Email address</label>
+                                                    <input type="email" name="comment-email" id="comment-email"
+                                                        placeholder="example@gmail.com"
+                                                        class="placeholder:[#7F8995] rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-semibold text-black outline-none transition-all focus:border-colorOrangyRed"
+                                                        required />
+                                                </div>
+                                                <!-- Form Single Input -->
+                                            </div>
+                                            <!-- Form Group -->
+
+                                            <!-- Form Group -->
+                                            <div class="grid grid-cols-1 gap-6">
+                                                <!-- Form Single Input -->
+                                                <div class="flex flex-col gap-y-[10px]">
+                                                    <label for="comment-message"
+                                                        class="text-lg font-bold leading-[1.6]">Message</label>
+                                                    <textarea name="comment-message" id="comment-message"
+                                                        class="placeholder:[#7F8995] min-h-[180px] rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-semibold text-black outline-none transition-all focus:border-colorOrangyRed"
+                                                        placeholder="Write your message here..." required>
+                            </textarea>
+                                                </div>
+                                                <!-- Form Single Input -->
+                                            </div>
+
+                                            <div class="">
+                                                <button type="submit"
+                                                    class="button mt-5 rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white">
+                                                    Send your message
+                                                </button>
+                                            </div>
+                                            <!-- Form Group -->
+                                        </form>
+                                        <!-- Comment Form -->
+                                    </div>
+                                </div>
+                                <!-- Blog Comment Form -->
+                            </div>
+                            <!-- Blog Aside -->
+                            <aside class="jos flex flex-col gap-y-[30px]">
+                                <!-- Single Sidebar -->
+                                <div>
+                                    <!-- Sidebar Search -->
+                                    <form action="#" method="post" class="relative h-[60px]">
+                                        <input type="search" name="sidebar-search" id="sidebar-search"
+                                            placeholder="Type to search..."
+                                            class="h-full w-full rounded-[50px] border border-[#E1E1E1] bg-white py-[15px] pl-16 pr-8 text-lg outline-none transition-all focus:border-colorOrangyRed"
+                                            required />
+                                        <button type="submit" class="absolute left-[30px] top-0 h-full">
+                                            <img src="assets/img/th-1/icon-black-search.svg" alt="search" width="20"
+                                                height="20" />
+                                        </button>
+                                    </form>
+                                    <!-- Sidebar Search -->
+                                </div>
+                                <!-- Single Sidebar -->
+                                <!-- Single Sidebar -->
+                                <div class="rounded-[10px] border border-[#EAEDF0] p-8">
+                                    <div
+                                        class="relative mb-[30px] inline-block pb-[10px] text-lg font-semibold after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:bg-black">
+                                        Blog Categories
+                                    </div>
+                                    <!-- Blog Categories List -->
+                                    <ul>
+                                        <li class="mb-6 last:mb-0">
+                                            <a href="blog-details.html"
+                                                class="text-black hover:text-colorOrangyRed">Business & Marketing
+                                                (18)</a>
+                                        </li>
+                                        <li class="mb-6 last:mb-0">
+                                            <a href="blog-details.html"
+                                                class="text-black hover:text-colorOrangyRed">Technology (05)</a>
+                                        </li>
+                                        <li class="mb-6 last:mb-0">
+                                            <a href="blog-details.html" class="text-black hover:text-colorOrangyRed">Art
+                                                & Beauty (23)</a>
+                                        </li>
+                                        <li class="mb-6 last:mb-0">
+                                            <a href="blog-details.html"
+                                                class="text-black hover:text-colorOrangyRed">Digital Agency (10)</a>
+                                        </li>
+                                    </ul>
+                                    <!-- Blog Categories List -->
+                                </div>
+                                <!-- Single Sidebar -->
+                                <!-- Single Sidebar -->
+                                <div class="rounded-[10px] border border-[#EAEDF0] p-8">
+                                    <div
+                                        class="relative mb-[30px] inline-block pb-[10px] text-lg font-semibold after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:bg-black">
+                                        Recent Posts
+                                    </div>
+
+                                    <!-- Blog Recent Post List -->
+                                    <ul class="flex flex-col gap-y-6">
+                                        <li class="group flex flex-col items-center gap-x-4 gap-y-4 sm:flex-row">
+                                            <a href="blog-details.html"
+                                                class="inline-block h-[150px] w-full overflow-hidden rounded-[5px] sm:h-[100px] sm:w-[150px]">
+                                                <img src="assets/img/th-1/blog-recent-img-1.jpg" alt="blog-recent-img-1"
+                                                    width="150" height="130"
+                                                    class="h-full w-full scale-100 object-cover transition-all duration-300 group-hover:scale-105" />
+                                            </a>
+                                            <div class="flex w-full flex-col gap-y-3 sm:w-auto sm:flex-1">
+                                                <a href="blog-details.html"
+                                                    class="flex items-center gap-[10px] text-sm hover:text-colorOrangyRed">
+                                                    <div class="h-6 w-6">
+                                                        <img src="assets/img/th-1/icon-black-calendar.svg"
+                                                            alt="icon-black-calendar" width="24" height="24"
+                                                            class="h-full w-full object-cover" />
+                                                    </div>
+                                                    June 12, 2024
+                                                </a>
+                                                <a href="blog-details.html"
+                                                    class="text-base font-bold hover:text-colorOrangyRed">6 profitable
+                                                    AI tech businesses to start
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li class="group flex flex-col items-center gap-x-4 gap-y-4 sm:flex-row">
+                                            <a href="blog-details.html"
+                                                class="inline-block h-[150px] w-full overflow-hidden rounded-[5px] sm:h-[100px] sm:w-[150px]">
+                                                <img src="assets/img/th-1/blog-recent-img-2.jpg" alt="blog-recent-img-2"
+                                                    width="150" height="130"
+                                                    class="h-full w-full scale-100 object-cover transition-all duration-300 group-hover:scale-105" />
+                                            </a>
+                                            <div class="flex w-full flex-col gap-y-3 sm:w-auto sm:flex-1">
+                                                <a href="blog-details.html"
+                                                    class="flex items-center gap-[10px] text-sm hover:text-colorOrangyRed">
+                                                    <div class="h-6 w-6">
+                                                        <img src="assets/img/th-1/icon-black-calendar.svg"
+                                                            alt="icon-black-calendar" width="24" height="24"
+                                                            class="h-full w-full object-cover" />
+                                                    </div>
+                                                    June 13, 2024
+                                                </a>
+                                                <a href="blog-details.html"
+                                                    class="text-base font-bold hover:text-colorOrangyRed">Why i decided
+                                                    to sell my B2B SaaS AI business
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li class="group flex flex-col items-center gap-x-4 gap-y-4 sm:flex-row">
+                                            <a href="blog-details.html"
+                                                class="inline-block h-[150px] w-full overflow-hidden rounded-[5px] sm:h-[100px] sm:w-[150px]">
+                                                <img src="assets/img/th-1/blog-recent-img-3.jpg" alt="blog-recent-img-3"
+                                                    width="150" height="130"
+                                                    class="h-full w-full scale-100 object-cover transition-all duration-300 group-hover:scale-105" />
+                                            </a>
+                                            <div class="flex w-full flex-col gap-y-3 sm:w-auto sm:flex-1">
+                                                <a href="blog-details.html"
+                                                    class="flex items-center gap-[10px] text-sm hover:text-colorOrangyRed">
+                                                    <div class="h-6 w-6">
+                                                        <img src="assets/img/th-1/icon-black-calendar.svg"
+                                                            alt="icon-black-calendar" width="24" height="24"
+                                                            class="h-full w-full object-cover" />
+                                                    </div>
+                                                    June 07, 2024
+                                                </a>
+                                                <a href="blog-details.html"
+                                                    class="text-base font-bold hover:text-colorOrangyRed">8 AI tools
+                                                    that will your streamline workflows
+                                                </a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <!-- Blog Recent Post List -->
+                                </div>
+                                <!-- Single Sidebar -->
+                                <!-- Single Sidebar -->
+                                <div class="rounded-[10px] border border-[#EAEDF0] p-8">
+                                    <div
+                                        class="relative mb-[30px] inline-block pb-[10px] text-lg font-semibold after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:bg-black">
+                                        Tags
+                                    </div>
+
+                                    <!-- Blog Tags Post List -->
+                                    <ul class="flex flex-wrap gap-x-2 gap-y-4">
+                                        <li>
+                                            <a href="blog-details.html"
+                                                class="inline-block rounded-[55px] bg-black bg-opacity-5 px-5 py-1 hover:bg-colorOrangyRed hover:text-white">Article</a>
+                                        </li>
+                                        <li>
+                                            <a href="blog-details.html"
+                                                class="inline-block rounded-[55px] bg-black bg-opacity-5 px-5 py-1 hover:bg-colorOrangyRed hover:text-white">Business</a>
+                                        </li>
+                                        <li>
+                                            <a href="blog-details.html"
+                                                class="inline-block rounded-[55px] bg-black bg-opacity-5 px-5 py-1 hover:bg-colorOrangyRed hover:text-white">Digital</a>
+                                        </li>
+                                        <li>
+                                            <a href="blog-details.html"
+                                                class="inline-block rounded-[55px] bg-black bg-opacity-5 px-5 py-1 hover:bg-colorOrangyRed hover:text-white">Technology</a>
+                                        </li>
+                                        <li>
+                                            <a href="blog-details.html"
+                                                class="inline-block rounded-[55px] bg-black bg-opacity-5 px-5 py-1 hover:bg-colorOrangyRed hover:text-white">UI/UX</a>
+                                        </li>
+                                    </ul>
+                                    <!-- Blog Tags Post List -->
+                                </div>
+                                <!-- Single Sidebar -->
+                                <!-- Single Sidebar -->
+                                <div class="rounded-[10px] border border-[#EAEDF0] p-8">
+                                    <div
+                                        class="relative mb-[30px] inline-block pb-[10px] text-lg font-semibold after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:bg-black">
+                                        Subscribe
+                                    </div>
+
+                                    <p class="mb-3">
+                                        Subscribe to our newsletter and get the latest news
+                                        updates lifetime
+                                    </p>
+
+                                    <form action="#" method="post" class="flex flex-col">
+                                        <input type="email" name="sidebar-newsletter" id="sidebar-newsletter"
+                                            placeholder="Enter your email address"
+                                            class="h-[60px] w-full rounded-[50px] border border-colorCodGray bg-transparent px-10 py-[15px] text-lg outline-none transition-all placeholder:text-black focus:border-colorOrangyRed"
+                                            required />
+                                        <button type="submit"
+                                            class="button mt-5 block rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white">
+                                            Subscribe Now
+                                        </button>
+                                    </form>
+                                </div>
+                                <!-- Single Sidebar -->
+                            </aside>
+                            <!-- Blog Aside -->
+                        </div>
+                    </div>
+                    <!-- Section Container -->
+                </div>
+                <!-- Section Spacer -->
+            </div>
+            <!--...::: Blog Section End :::... -->
+        </main>
+
+        <!--...::: Footer Section Start :::... -->
+        <footer
+            class="relative z-[1] -mt-[70px] overflow-hidden rounded-tl-[30px] rounded-tr-[30px] bg-colorLinenRuffle lg:rounded-tl-[50px] lg:rounded-tr-[50px]">
+            <!-- Footer Top -->
+            <div class="py-[60px] xl:pb-[100px] xl:pt-[130px]">
+                <div class="overflow-hidden">
+                    <!-- Footer Text Slider -->
+                    <div class="footer-text-slider flex w-full items-center gap-x-[30px] whitespace-nowrap">
+                        <!-- Footer Slide Item  -->
+                        <img src="assets/img/th-1/footer-text-slider-icon.svg" alt="footer-text-slider-icon" width="60"
+                            height="60" class="h-10 w-10 lg:h-[60px] lg:w-[60px]" />
+                        <div
+                            class="block font-dmSans text-4xl font-bold leading-none -tracking-[2px] text-black lg:text-6xl xl:text-7xl xxl:text-[80px]">
+                            Start building software
+                        </div>
+                        <!-- Footer Slide Item  -->
+                        <!-- Footer Slide Item  -->
+                        <img src="assets/img/th-1/footer-text-slider-icon.svg" alt="footer-text-slider-icon" width="60"
+                            height="60" class="h-10 w-10 lg:h-[60px] lg:w-[60px]" />
+                        <div
+                            class="block font-dmSans text-4xl font-bold leading-none -tracking-[2px] text-black lg:text-6xl xl:text-7xl xxl:text-[80px]">
+                            Start building software
+                        </div>
+                        <!-- Footer Slide Item  -->
+                        <!-- Footer Slide Item  -->
+                        <img src="assets/img/th-1/footer-text-slider-icon.svg" alt="footer-text-slider-icon" width="60"
+                            height="60" class="h-10 w-10 lg:h-[60px] lg:w-[60px]" />
+                        <div
+                            class="block font-dmSans text-4xl font-bold leading-none -tracking-[2px] text-black lg:text-6xl xl:text-7xl xxl:text-[80px]">
+                            Start building software
+                        </div>
+                        <!-- Footer Slide Item  -->
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Text Slider -->
+            <!-- Footer Top -->
+            <div class="global-container">
+                <div class="h-[1px] w-full bg-[#DBD6CF]"></div>
+                <!-- Footer Center -->
+                <div
+                    class="lg grid grid-cols-1 gap-10 py-[60px] md:grid-cols-[1fr_auto_auto] xl:grid-cols-[1fr_auto_auto_1fr] xl:gap-20 xl:py-[100px]">
+                    <!-- Footer Widget -->
+                    <div class="flex flex-col gap-y-6">
+                        <a href="index.html" class="inline-block"><img src="assets/img/th-1/logo.png" alt="logo"
+                                width="96" height="24" /></a>
+                        <p>
+                            Our mission is to harness the power of AI to solve complex
+                            business challenges & decision-makers with data-driven insights,
+                            and enhance user experiences across digital platforms.
+                        </p>
+                        <p>
+                            Website: <a href="https://www.example.com">www.example.com</a>
+                        </p>
+                    </div>
+                    <!-- Footer Widget -->
+
+                    <!-- Footer Widget -->
+                    <div class="flex flex-col gap-y-6">
+                        <!-- Footer Title -->
+                        <h4 class="text-[21px] font-semibold capitalize text-black">
+                            Primary Pages
+                        </h4>
+                        <!-- Footer Title -->
+
+                        <!-- Footer Navbar -->
+                        <ul class="flex flex-col gap-y-[10px] capitalize">
+                            <li>
+                                <a href="index.html"
+                                    class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">Home</a>
+                            </li>
+                            <li>
+                                <a href="about.html"
+                                    class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">About
+                                    Us</a>
+                            </li>
+                            <li>
+                                <a href="services.html"
+                                    class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">Services</a>
+                            </li>
+                            <li>
+                                <a href="pricing.html"
+                                    class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">pricing</a>
+                            </li>
+                            <li>
+                                <a href="contact.html"
+                                    class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Footer Widget -->
+
+                    <!-- Footer Widget -->
+                    <div class="flex flex-col gap-y-6">
+                        <!-- Footer Title -->
+                        <h4 class="text-[21px] font-semibold capitalize text-black">
+                            Utility pages
+                        </h4>
+                        <!-- Footer Title -->
+
+                        <!-- Footer Navbar -->
+                        <ul class="flex flex-col gap-y-[10px] capitalize">
+                            <li>
+                                <a href="signup.html"
+                                    class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">Signup</a>
+                            </li>
+                            <li>
+                                <a href="login.html"
+                                    class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">Login</a>
+                            </li>
+                            <li>
+                                <a href="error-404.html"
+                                    class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">404 Not
+                                    found</a>
+                            </li>
+                            <li>
+                                <a href="reset-password.html"
+                                    class="transition-all duration-300 ease-linear hover:text-colorOrangyRed">Password
+                                    Reset</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Footer Widget -->
+
+                    <!-- Footer Widget -->
+                    <div class="flex flex-col gap-y-6">
+                        <!-- Footer Title -->
+                        <h4 class="text-[21px] font-semibold capitalize text-black">
+                            Subscribe to our newsletter
+                        </h4>
+                        <!-- Footer Title -->
+                        <!-- Footer Subscriber Form -->
+                        <form action="#" method="post" class="">
+                            <div class="relative h-[50px] max-w-[300px]">
+                                <input type="email" name="newsletter-email" id="newsletter-email"
+                                    placeholder="Enter your email"
+                                    class="p-y-[18px] h-full w-full rounded-[50px] border-[1px] border-black px-[24px] pr-20 outline-none"
+                                    required />
+                                <button type="submit"
+                                    class="absolute right-[5px] top-[50%] inline-block h-10 -translate-y-[50%] rounded-[50px] bg-black px-6 transition-all hover:bg-orange-500">
+                                    <img src="assets/img/th-1/arrow-right-large.svg" alt="newsletter" />
+                                </button>
+                            </div>
+                        </form>
+                        <!-- Footer Subscriber Form -->
+                    </div>
+                    <!-- Footer Widget -->
+                </div>
+                <!-- Footer Center -->
+                <div class="h-[1px] w-full bg-[#DBD6CF]"></div>
+                <!-- Footer Bottom -->
+                <div class="py-9 text-center">
+                    <p>&copy; Copyright 2023, All Rights Reserved by Mthemeus</p>
+                </div>
+                <!-- Footer Bottom -->
+            </div>
+
+            <!-- Footer Background Shape 1  -->
+            <div
+                class="orange-gradient-2 absolute -top-[290px] right-[90px] -z-[1] h-[406px] w-[406px] -rotate-[58deg] rounded-[406px]">
+            </div>
+
+            <!-- Footer Background Shape 2  -->
+            <div
+                class="orange-gradient-1 absolute -right-[200px] -top-[205px] -z-[1] h-[451px] w-[451px] -rotate-[58deg] rounded-[451px]">
+            </div>
+        </footer>
+        <!--...::: Footer Section End :::... -->
+    </div>
+
+    <!--Vendor js-->
+    <script src="assets/js/vendors/counterup.js" type="module"></script>
+    <script src="assets/js/vendors/swiper-bundle.min.js"></script>
+    <script src="assets/js/vendors/fslightbox.js"></script>
+    <script src="assets/js/vendors/jos.min.js"></script>
+    <script src="assets/js/vendors/menu.js"></script>
+
+    <!-- Main js -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
