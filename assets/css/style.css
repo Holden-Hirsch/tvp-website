@@ -2007,7 +2007,7 @@ h5 {
 }
 
 .bg-\[url\(\'\.\.\/img\/th-4\/hero-bg\.jpg\'\)\] {
-  background-image: url('../img/th-4/hero-bg.jpg');
+  background-image: url('https://the-visionary-partners.s3.amazonaws.com/hero-bg+(1).png');
 }
 
 .bg-\[url\(\.\.\/img\/th-1\/404-text-image\.jpg\)\] {
