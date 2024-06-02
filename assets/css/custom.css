@@ -1,12 +1,13 @@
-.orange-gradient-1 {
-  background: radial-gradient(50% 50% at 50% 50%, #ff9831 0%, #fe330a 100%);
+.blue-gradient-1 {
+  background: radial-gradient(50% 50% at 50% 50%, #00BFFF 0%, #321ca4 100%);
   filter: blur(55px);
 }
 
-.orange-gradient-2 {
-  background: radial-gradient(50% 50% at 50% 50%, #fe330a 0%, #ff9831 100%);
+.blue-gradient-2 {
+  background: radial-gradient(50% 50% at 50% 50%, #321ca4 0%, #00BFFF 100%);
   filter: blur(55px);
 }
+
 
 
 /* Custom CSS for accordion */
