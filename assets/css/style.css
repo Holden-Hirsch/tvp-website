@@ -2571,7 +2571,7 @@ h5 {
 
 .text-colorOrangyRed {
   --tw-text-opacity: 1;
-  color: rgb(254 51 10 / var(--tw-text-opacity));
+  color: rgb(0 114 176 / var(--tw-text-opacity));
 }
 
 .text-transparent {
@@ -2820,7 +2820,7 @@ h5 {
 
 .breadcrumb-nav li:last-child {
   --tw-text-opacity: 1;
-  color: rgb(254 51 10 / var(--tw-text-opacity));
+  color: rgb(0 114 176 / var(--tw-text-opacity));
 }
 
 .breadcrumb-nav li:last-child::after {
@@ -2835,7 +2835,7 @@ h5 {
 
 .breadcrumb-nav a:hover {
   --tw-text-opacity: 1;
-  color: rgb(254 51 10 / var(--tw-text-opacity));
+  color: rgb(0 114 176 / var(--tw-text-opacity));
 }
 
 .testimonial-nav {
@@ -2872,7 +2872,7 @@ h5 {
   justify-content: center;
   border-radius: 50%;
   --tw-bg-opacity: 1;
-  background-color: rgb(234 237 240 / var(--tw-bg-opacity));
+  background-color: rgb(0 148 60 / var(--tw-bg-opacity));
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 300ms;
@@ -3161,7 +3161,7 @@ h5 {
 .after\:border-colorOrangyRed::after {
   content: var(--tw-content);
   --tw-border-opacity: 1;
-  border-color: rgb(254 51 10 / var(--tw-border-opacity));
+  border-color: rgb(0 114 176 / var(--tw-border-opacity));
 }
 
 .after\:bg-black::after {
@@ -3185,7 +3185,7 @@ h5 {
 .after\:bg-colorOrangyRed::after {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
-  background-color: rgb(254 51 10 / var(--tw-bg-opacity));
+  background-color: rgb(0 114 176 / var(--tw-bg-opacity));
 }
 
 .after\:bg-colorViolet::after {
@@ -3247,13 +3247,13 @@ h5 {
 .checked\:after\:border-colorOrangyRed:checked::after {
   content: var(--tw-content);
   --tw-border-opacity: 1;
-  border-color: rgb(254 51 10 / var(--tw-border-opacity));
+  border-color: rgb(0 114 176 / var(--tw-border-opacity));
 }
 
 .checked\:after\:bg-colorOrangyRed:checked::after {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
-  background-color: rgb(254 51 10 / var(--tw-bg-opacity));
+  background-color: rgb(0 114 176 / var(--tw-bg-opacity));
 }
 
 .checked\:after\:bg-\[url\(\.\.\/img\/th-1\/icon-white-checkmark-filled\.svg\)\]:checked::after {
@@ -3268,7 +3268,7 @@ h5 {
 
 .hover\:border-colorOrangyRed:hover {
   --tw-border-opacity: 1;
-  border-color: rgb(254 51 10 / var(--tw-border-opacity));
+  border-color: rgb(0 0 0  / var(--tw-border-opacity));
 }
 
 .hover\:bg-\[\#381FD1\]:hover {
@@ -3283,12 +3283,12 @@ h5 {
 
 .hover\:bg-colorOrangyRed:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(254 51 10 / var(--tw-bg-opacity));
+  background-color: rgb(0 114 176 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-orange-500:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(249 115 22 / var(--tw-bg-opacity));
+  background-color: rgb(0 114 176 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-slate-200:hover {
@@ -3308,7 +3308,7 @@ h5 {
 
 .hover\:text-colorOrangyRed:hover {
   --tw-text-opacity: 1;
-  color: rgb(254 51 10 / var(--tw-text-opacity));
+  color: rgb(0 114 176 / var(--tw-text-opacity));
 }
 
 .hover\:text-colorViolet:hover {
@@ -3329,7 +3329,7 @@ h5 {
 
 .focus\:border-colorOrangyRed:focus {
   --tw-border-opacity: 1;
-  border-color: rgb(254 51 10 / var(--tw-border-opacity));
+  border-color: rgb(0 114 176 / var(--tw-border-opacity));
 }
 
 .active\:bg-black:active {
@@ -3386,7 +3386,7 @@ h5 {
 
 .group:hover .group-hover\:border-colorOrangyRed {
   --tw-border-opacity: 1;
-  border-color: rgb(254 51 10 / var(--tw-border-opacity));
+  border-color: rgb(0 114 176 / var(--tw-border-opacity));
 }
 
 .group:hover .group-hover\:bg-colorViolet {
@@ -3406,7 +3406,7 @@ h5 {
 
 .group:hover .group-hover\:text-colorOrangyRed {
   --tw-text-opacity: 1;
-  color: rgb(254 51 10 / var(--tw-text-opacity));
+  color: rgb(0 114 176 / var(--tw-text-opacity));
 }
 
 .group:hover .group-hover\:text-white {
