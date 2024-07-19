@@ -277,7 +277,31 @@
                                     </button>
                                 </div>
                             </form>
-                            
+                            <script>
+                                document.getElementById('dataForm').addEventListener('submit', async (event) => {
+                                    event.preventDefault();
+                                    const form = event.target;
+                                    const formData = new FormData(form);
+                                    const formDataObject = Object.fromEntries(formData.entries());
+                        
+                                    try {
+                                        const response = await fetch(form.action, {
+                                            method: 'POST',
+                                            headers: { 'Content-Type': 'application/json' },
+                                            body: JSON.stringify(formDataObject)
+                                        });
+                        
+                                        const result = await response.json();
+                                        if (response.ok) {
+                                            window.location.href = 'https://www.thevisionarypartners.com/success.html';
+                                        } else {
+                                            alert(result.message);
+                                        }
+                                    } catch (error) {
+                                        alert('Error: ' + error.message);
+                                    }
+                                });
+                            </script>
                             <!-- Contact Right Block -->
                         </div>
                     </div>
