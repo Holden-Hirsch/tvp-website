@@ -277,6 +277,10 @@
                                     </button>
                                 </div>
                             </form>
+                            <div id="confirmationMessage" style="display:none; color:green;">
+                                Thank you! Your message has been received and we will reach out to you shortly.
+                            </div>
+                        
                             <script>
                                 document.getElementById('dataForm').addEventListener('submit', async (event) => {
                                     event.preventDefault();
@@ -293,7 +297,8 @@
                         
                                         const result = await response.json();
                                         if (response.ok) {
-                                            window.location.href = 'https://www.thevisionarypartners.com/success.html';
+                                            document.getElementById('confirmationMessage').style.display = 'block';
+                                            form.reset();
                                         } else {
                                             alert(result.message);
                                         }
