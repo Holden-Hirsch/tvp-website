@@ -278,24 +278,28 @@
                                 </div>
                             </form>
                             
+                            <div id="confirmationMessage" class="hidden">
+                                Thank you! Your message has been received and we will reach out to you shortly.
+                            </div>
+                        
                             <script>
                                 document.getElementById('dataForm').addEventListener('submit', async (event) => {
                                     event.preventDefault(); // Prevent default form submission
-
+                        
                                     const form = event.target;
                                     const formData = new FormData(form);
                                     const formDataObject = Object.fromEntries(formData.entries());
-
+                        
                                     try {
                                         const response = await fetch(form.action, {
                                             method: 'POST',
                                             headers: { 'Content-Type': 'application/json' },
                                             body: JSON.stringify(formDataObject)
                                         });
-
+                        
                                         const result = await response.json();
                                         if (response.ok) {
-                                            document.getElementById('confirmationMessage').style.display = 'block';
+                                            document.getElementById('confirmationMessage').classList.replace('hidden', 'visible');
                                             form.reset();
                                         } else {
                                             alert(result.message);
