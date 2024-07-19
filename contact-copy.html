@@ -232,11 +232,7 @@
                             <!-- Contact Left Block -->
 
                             <!-- Contact Right Block -->
-                            <style>
-                                .hidden { display: none; }
-                                .visible { display: block; color: green; font-weight: bold; margin-top: 20px; }
-                            </style>
-                            
+
                             <form action="https://us-central1-website-chatbot-416722.cloudfunctions.net/form-handler-1" method="post" class="flex flex-col gap-y-5">
                                 <div class="grid grid-cols-1 gap-6 xl:grid-cols-2">
                                     <div class="flex flex-col gap-y-[10px]">
@@ -281,38 +277,6 @@
                                     </button>
                                 </div>
                             </form>
-                            
-                            <div id="confirmationMessage" class="hidden">
-                                Thank you! Your message has been received and we will reach out to you shortly.
-                            </div>
-                        
-                            <script>
-                                document.getElementById('dataForm').addEventListener('submit', async (event) => {
-                                    event.preventDefault(); // Prevent default form submission
-                        
-                                    const form = event.target;
-                                    const formData = new FormData(form);
-                                    const formDataObject = Object.fromEntries(formData.entries());
-                        
-                                    try {
-                                        const response = await fetch(form.action, {
-                                            method: 'POST',
-                                            headers: { 'Content-Type': 'application/json' },
-                                            body: JSON.stringify(formDataObject)
-                                        });
-                        
-                                        const result = await response.json();
-                                        if (response.ok) {
-                                            document.getElementById('confirmationMessage').classList.replace('hidden', 'visible');
-                                            form.reset();
-                                        } else {
-                                            alert(result.message);
-                                        }
-                                    } catch (error) {
-                                        alert('Error: ' + error.message);
-                                    }
-                                });
-                            </script>
                             <!-- Contact Right Block -->
                         </div>
                     </div>
