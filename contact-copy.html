@@ -233,7 +233,7 @@
 
                             <!-- Contact Right Block -->
                             
-                            <form action="https://us-central1-website-chatbot-416722.cloudfunctions.net/form-handler-1" method="post" class="flex flex-col gap-y-5">
+                            <form id='dataForm' class="flex flex-col gap-y-5">
                                 <div class="grid grid-cols-1 gap-6 xl:grid-cols-2">
                                     <div class="flex flex-col gap-y-[10px]">
                                         <label for="name" class="text-lg font-bold leading-[1.6]">Enter your name</label>
@@ -285,7 +285,7 @@
                                     const formDataObject = Object.fromEntries(formData.entries());
                         
                                     try {
-                                        const response = await fetch(form.action, {
+                                        const response = await fetch('https://REGION-PROJECT_ID.cloudfunctions.net/formhandler', {
                                             method: 'POST',
                                             headers: { 'Content-Type': 'application/json' },
                                             body: JSON.stringify(formDataObject)
@@ -302,6 +302,7 @@
                                     }
                                 });
                             </script>
+                        
                             <!-- Contact Right Block -->
                         </div>
                     </div>
